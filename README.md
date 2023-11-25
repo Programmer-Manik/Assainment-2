@@ -3,7 +3,7 @@
 Project Instructions
 
 Clone the project
-git clone https://github.com/nazmulhasannasim333/assignment-two-mongoose
+git clone https://github.com/Programmer-Manik/Assainment-2
 
 Go to the project directory
 cd my-project
