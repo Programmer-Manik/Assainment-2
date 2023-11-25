@@ -6,8 +6,8 @@
   "scripts": {
     "prettier:fix": "npx prettier --write src",
     "format": "prettier --ignore-path .gitignore --write \"./src**/*.+(js|ts|json)\"",
-    "node:dev": "node ./dist/server.js",
-    "start:dev": "ts-node-dev --respawn --transpile-only ./src/server.ts",
+    "start": "node ./dist/server.js",
+    "server:dev": "ts-node-dev --respawn --transpile-only ./src/server.ts",
     "lint:fix": "npm run lint --fix",
     "lint": "eslint --ignore-path .eslintignore --ext .js,.ts",
     "build": "tsc",
