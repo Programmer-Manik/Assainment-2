@@ -21,8 +21,7 @@ export type usersT = {
     price: number;
     quantity: number;
   }>;
- 
-}
+};
 export interface UserModel extends Model<usersT> {
   isUserExists(userId: number | string): Promise<usersT> | null;
 }
