@@ -2,17 +2,18 @@
 
 Project Instructions
 
-Clone the project
+Clone the project :
 git clone https://github.com/Programmer-Manik/Assainment-2
 
-Go to the project directory
+Go to the project directory :
 cd my-project
 
-Install dependencies
+Install dependencies :
 npm install
 
 #package.json
 Start the server:
+npm run start,
 npm run start:dev
 
 #Open postman
